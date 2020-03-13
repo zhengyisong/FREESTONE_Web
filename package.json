@@ -1,0 +1,14 @@
+{
+  "name": "freestone",
+  "version": "1.0.0",
+  "description": "loading page for freestone",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Zhengyi Song",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

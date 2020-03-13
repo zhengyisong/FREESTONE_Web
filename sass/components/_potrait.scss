@@ -1,0 +1,28 @@
+.potrait {
+    position: relative;
+    &__photo {
+        
+        left: 10%;
+        width: 80%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        position: absolute;
+        z-index: 10;
+        transition: all .2s;
+
+        &--n {
+            left: -6rem; top: -3rem;
+            &:link {
+                transform: rotateY(180deg);
+            }
+        }
+        &--r {right: 0; top: 2rem;}
+
+        &:hover {
+            transform: scale(1.05) translateY(-2rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+            z-index: 20;
+        }
+    }
+
+}
